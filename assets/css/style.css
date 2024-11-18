@@ -103,3 +103,14 @@ section p {
 }
 
 
+@media (max-width: 768px) {
+    .work-item {
+        width: 100%;
+    }
+
+
+section {
+    margin: 20px 5%;
+   } 
+}
+
