@@ -63,3 +63,43 @@ section h2 {
 section p {
     margin: 10px 0;
 }
+
+.work-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.work-item {
+    background: #eaea;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: calc(48% - 10px);
+    overflow:hidden;
+    text-align: center;
+    transition: transform 0.3s, box-shoadow 0.4s;
+
+
+}
+
+.work-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+
+}
+
+.work-item img {
+    width: 100%;
+    height: auto;
+
+}
+
+.work-item h3 {
+    padding: 10px;
+    margin: 0;
+
+}
+
+
